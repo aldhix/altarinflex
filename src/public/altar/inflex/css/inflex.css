@@ -1,0 +1,27 @@
+.container-preview{
+	float: left;
+}
+.container-preview .image-preview .img-add,
+.container-preview .image-preview {
+	float: left;
+	width: 160px;
+	height: 160px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 160px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.container-preview .image-preview .progress{
+	height: 150px;
+}
+
+.container-preview  .image-preview .img-remove {
+	float: right;
+}
+
+.img-input,
+.container-preview .template{
+	display: none;
+}
