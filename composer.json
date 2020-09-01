@@ -1,0 +1,31 @@
+{
+    "name": "aldhix/altarinflex",
+    "description": "Paket Altar Input File Multiple Ajax",
+    "keywords": [
+        "aldhix",
+        "altarinflex"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldhi Xar",
+            "email": "aldhi.x@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aldhix\\Altarinflex\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldhix\\Altarinflex\\ServiceProvider"
+            ],
+            "aliases": {
+                "Inflexdemo": "Aldhix\\Altarinflex\\Inflexdemo"
+            }
+        }
+    }
+}
