@@ -29,5 +29,10 @@ class ServiceProvider extends Service
     {  
         $this->loadViewsFrom(__DIR__.'/views/components', 'component');
         Blade::component('component::inflex','alt-inflex');
+        $this->publishes([
+            __DIR__.'/app' => app_path('/'),
+            __DIR__.'/views/altar' => resource_path('views/altar'),
+            __DIR__.'/public' => public_path('/'),
+        ]);
     }
 }
